@@ -255,6 +255,25 @@ jQuery(document).ready(function() {
         });
     };
 
+    $('.coctailImg').each(function(i, o) {
+      $(o).hover(function(){
+        $(this).hasClass('rotation') ?
+          $(this).removeClass('rotation') :
+          $(this).addClass('rotation');
+      }, function(){
+        $(this).hasClass('rotation') ?
+          $(this).removeClass('rotation') :
+          $(this).addClass('rotation');
+      });
+      setTimeout(function(){
+        setInterval(function(){
+          $(o).hasClass('rotation') ?
+            $(o).removeClass('rotation') :
+            $(o).addClass('rotation');
+        }, 5000);
+      }, i * 200 + 4000);
+    });
+
     $('.close').on('click', function() {
         $.fancybox.close();
     });
