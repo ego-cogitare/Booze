@@ -1,0 +1,7 @@
+{
+    "require": {
+        "jaybizzle/crawler-detect": "^1.2",
+        "phpmailer/phpmailer": "~5.2",
+        "morris/microdb": "^0.1.1"
+    }
+}

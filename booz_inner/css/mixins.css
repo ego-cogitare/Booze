@@ -1,0 +1,198 @@
+/* colors */
+/* colors */
+/*fonts*/
+/*BEBAS*/
+/*OpenSans*/
+/*Roboto*/
+/*fonts*/
+/*functions*/
+.nonScroll {
+  overflow: hidden;
+  height: 100%;
+}
+.burger {
+  display: none;
+}
+.hidden {
+  opacity: 0;
+}
+.visible {
+  opacity: 1;
+}
+.full {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.text-underline {
+  text-decoration: underline;
+}
+.clear {
+  clear: both;
+  *zoom: 1;
+  height: 0;
+  visibility: hidden;
+  display: block;
+  content: "";
+}
+.vam {
+  vertical-align: middle;
+}
+.vat {
+  vertical-align: top;
+}
+.vab {
+  vertical-align: bottom;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'OpenSansRegular', sans-serif;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0;
+}
+@media only screen and (min-width: 1367px) and (max-width: 1680px) {
+  * {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1366px), only screen and (min-width: 768px) and (max-width: 1023px), only screen and (max-width: 767px) {
+  * {
+    font-size: 13px;
+  }
+}
+/* For modern browsers */
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after,
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+}
+.clearfix:after,
+.container:after,
+.row:after {
+  clear: both;
+}
+/* для IE6-7 */
+.clearfix,
+.container,
+.row {
+  zoom: 1;
+  position: relative;
+}
+.fll {
+  float: left;
+}
+.flr {
+  float: right;
+}
+.fln {
+  float: none;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.ttu {
+  text-transform: uppercase;
+}
+.ttn {
+  text-transform: none;
+}
+.h-nav {
+  margin: 0;
+  padding: 0;
+  letter-spacing: normal;
+}
+.h-nav li {
+  display: inline-block;
+}
+.bd100 {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+.w100p {
+  width: 100%;
+}
+.w50p {
+  width: 50%;
+}
+.justify {
+  text-align: justify;
+  font-size: 0.01px;
+}
+.justify:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+.justify .left,
+.justify .right {
+  display: inline-block;
+  line-height: normal;
+}
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+/*------------------------Градиенты---------------------------*/
+/*------------------------Градиенты---------------------------*/
+/*----------------------Трансформация--------------------------*/
+/*----------------------Трансформация--------------------------*/
+.pos-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.pos-centerY {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.pos-centerX {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+/*functions*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 100;
+}
+/*animations*/
+/*------------------------move bg---------------------------*/
+/*animations*/

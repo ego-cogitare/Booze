@@ -1,0 +1,42 @@
+
+/*BebasNeue*/
+@font-face {
+    font-family: 'BebasNeueBold';
+    src: url('fonts/BebasNeueBold/BebasNeueBold.eot');
+    src: local('☺'), url('fonts/BebasNeueBold/BebasNeueBold.woff') format('woff'),
+    url('fonts/BebasNeueBold/BebasNeueBold.ttf') format('truetype');
+}
+
+/*OpenSans*/
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('fonts/OpenSansRegular/OpenSansRegular.eot');
+    src: local('☺'), url('fonts/OpenSansRegular/OpenSansRegular.woff') format('woff'),
+    url('fonts/OpenSansRegular/OpenSansRegular.ttf') format('truetype');
+}
+
+/*Roboto*/
+@font-face {
+    font-family: 'RobotoLight';
+    src: url('fonts/Roboto-Light/Roboto-Light.eot');
+    src: local('☺'), url('fonts/Roboto-Light/Roboto-Light.woff') format('woff'),
+    url('fonts/Roboto-Light/Roboto-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('fonts/Roboto-Regular/Roboto-Regular.eot');
+    src: local('☺'), url('fonts/Roboto-Regular/Roboto-Regular.woff') format('woff'),
+    url('fonts/Roboto-Regular/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url('fonts/Roboto-Medium/Roboto-Medium.eot');
+    src: local('☺'), url('fonts/Roboto-Medium/Roboto-Medium.woff') format('woff'),
+    url('fonts/Roboto-Medium/Roboto-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('fonts/Roboto-Bold/Roboto-Bold.eot');
+    src: local('☺'), url('fonts/Roboto-Bold/Roboto-Bold.woff') format('woff'),
+    url('fonts/Roboto-Bold/Roboto-Bold.ttf') format('truetype');
+}
